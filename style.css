@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    padding-top: 0;
+    margin: 0;
+    
+}
+.navbar{
+    /* background-color:white; */
+    width: 100%;
+}
+.container-fluid{
+    margin-top: 0rem;
+    background-color: white;
+    box-shadow:0px 4px 1000px;
+    height: 5rem;
+    width: 100%;
+    padding: 1px 2px;
+}
+.navbar-brand img {
+    margin-left: 0rem;
+    width: 5vw;
+    /* height: 10vh; */
+}
+
+#check {
+    display: none;
+}
+
+.icons {
+    display: flex;
+    width: 40px;
+}
+
+.navbar-nav {
+    margin-left: 10rem;
+}
+
+.d-flex {
+    width: 100rem;
+    margin-right: 20rem;
+}
+
+#navbarSupportedContent {
+    width: 10vw;
+}
+
+.navbar-nav2 {
+    margin-right: 3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+#wishcart{
+    display: flex;
+    flex-direction: row;
+}
+#wishcart a{
+    /* padding-bottom: 2rem; */
+    font-size: 1.5rem;
+}
+#wishcart i{
+    padding-top: 6px;
+    padding-right: .5rem;
+}
+#wishcart a{
+    font-size: 17px;
+    font-weight: 350;
+}
+/* modal */
+.modal-header{
+    background-color: rgba(250, 235, 215, 0.273);
+    backdrop-filter: blur(10%);
+}
+.modal-body{
+    background-color: rgba(250, 235, 215, 0.192);
+}
+#modal-footer{
+    background-color: rgba(250, 235, 215, 0.542);
+}
+/* modalcont */
+#modal-dialog{
+    background-image: url(./ChatGPT_Image_May_28__2025__09_21_35_PM-removebg-preview.png);
+
+}
+#bodylogin{
+    height: 35vh;
+}
+#log{
+    display: flex;
+    justify-content: center;
+}
+#img{
+    width: 50px;
+    height: 50px;
+}
+#loginimg{
+    height: 30vh;
+}
+#formlog{
+    display: block;
+    padding-left: 5rem;
+    width: 10vw;
+}
+#formlog input{
+    width: 20vw;
+    border-radius: 5px;
+    padding-left: 1rem;
+
+}
+#lgbtn{
+    padding: 1px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+/* formsignup */
+#formsign{
+   display: block;
+    padding-left: 5rem;
+    width: 20vw; 
+   
+} 
+#formsign input{
+    width: 20vw;
+    border-radius: 5px;
+    padding-left: 1rem;
+}
+#bodysign{
+     height: 55vh;
+}
+#sgbtn{
+    padding: 1px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+
+    /* modalbtn */
+
+
+
+/* home1 */
+/* cards */
+
+#card img{
+    
+    padding-left: 100px;
+
+}
+.discount-badge{
+   background-color: red;
+   width: 25%;
+   padding: 2px;
+   padding-left: 8px;
+   color: white;
+   border-radius: 5px;
+
+}
